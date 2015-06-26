@@ -1,0 +1,296 @@
+* {
+    margin:0;
+    padding:0;
+    }
+body {
+    background: #ffffff;
+    max-width: 100%;
+    min-width: 1000px;
+    font-family: Roboto, Roboto Regilar;
+    font-weight: lighter;
+}
+li { list-style-type: none; }
+
+h1,h2,h3 { font-weight: lighter; }
+
+a { text-decoration: none }
+button, select, input { outline: none; }
+                                /*HEADER*/
+
+header {
+    margin:0 auto;
+    width: 960px;
+}
+header ul li {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    margin-top: 22px;
+}
+header ul li a {
+    font-size: 14px;
+    color: #2F3236;
+    text-decoration: none;
+}
+header ul li a:hover { color: #F6A10E; }
+header #ul2 {
+    float: right;
+}
+header img {
+}
+header #logo_search {
+    display: inline-block;
+    margin-top: 45px;
+    width: 960px;
+}
+header input {
+    text-align: left; 
+    background: url(img/search.png)no-repeat;
+    background-position: 97% 50%;
+    height:60px;
+    width:565px;
+    font-size: 18px;
+    border: 1px #999999 solid;
+    text-indent: 20px;
+    color:#999999;
+    float: right;
+    
+}
+
+                                /*INFO_BLOCK*/
+
+#info_block {
+    background: url(img/japan_bg.png)no-repeat;
+    width: 1000px;
+    height: 430px;
+    margin: 0 auto;
+}
+#info_block a.closer {
+    background: url(img/Imported.png)no-repeat;
+    float: right;
+    margin-top: 40px;
+    color: #e7e7e7;
+    padding-right: 43px;
+    background-position: 100% 50%;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    height: 32px;
+    padding-top: 10px;
+}
+#info_block a.closer:hover{ 
+    color: #F6A10E;
+    background: url(img/Imported_aktiv.png)no-repeat;
+    background-position: 100% 50%;
+}
+#info_block h1 {
+    color: #F6A10E;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 36px;
+}
+#info_block h2 {
+    color: #E7E7E7;
+    text-align: center;
+    font-size: 24px;
+}
+#instruction ul li:last-child {
+    margin-right: 0px;
+}
+#instruction ul li {
+    color: #E7E7E7;
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-right: 135px;
+}
+#instruction ul {
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 80px;
+}
+#proces_uslugi ul {
+    margin-left: 40px;
+}
+#proces_uslugi li {
+    float: left;
+    display: block;
+    font-size: 18px;
+    width: 132px;
+    margin-right: 133px;
+}
+#proces_uslugi li:last-child {
+    margin-right: 0px;
+}
+#proces_uslugi a {
+    color: #F6A10E; 
+}
+#proces_uslugi img {
+    margin-top: 20px;
+}
+
+                                /*INFO_BLOCK_MENU*/
+
+
+#info_block_menu {
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+}
+#info_block_menu .inf_menu {
+    display: inline-block;
+    width: 249px;
+    height: 80px;
+    text-align: center;
+    background: #2F3236;
+    border: 0px solid #000000;
+    border-width: 0px 1px 0 0px;
+    margin-right: -4px;
+}
+#info_block_menu .inf_menu a {
+    display: block;
+    height: 62%;
+    color: #E7E7E7;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+                                /*NEWS*/
+#news {
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+   
+}
+#news img {
+    float: left;
+    padding: 0 20px 0 20px;
+}
+#news ul li {
+    display: block;
+    float: left;
+    margin-right: 57px;
+    font-size: 14px;
+}
+#news ul li span {
+    font-size: 18px;
+}
+                                /*PROPOSAL*/
+
+#proposal h1 {
+    display: inline-block;
+    font-size: 28px;
+    padding: 40px 0 0 40px;
+    font-family: Roboto, Roboto Regilar;
+}
+#proposal p + p {
+    padding-top: 30px;
+}
+#proposal p {
+    padding: 20px 0 0 40px;
+    display: inline-block;
+}
+#proposal a {
+    color: #F6A10E;
+}
+#proposal {
+    width: 960px;
+    height: 273px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+#proposal #auto {
+    width: 300px;
+    height: 273px;
+    background: #ffffff;
+    display: inline-block;
+    border: 1px solid #D9CFBA;
+    float: left;
+    margin-right: 30px;
+}
+#proposal img {
+    float: right;
+    position: relative;
+    bottom: 24px;
+}
+#proposal #auto_parts {
+    width: 320px;
+    height: 273px;
+    border: 1px solid #D9CFBA;
+    display: inline-block;
+    float: left;
+    margin-right: 30px;    
+}
+#proposal #write_to_us {
+    width: 272px;
+    height: 273px;
+    border: 1px solid #D9CFBA;
+    display: inline-block;
+    float: left;
+}
+#proposal #auto:hover { background: #F3EFE6; }
+#proposal #auto_parts:hover { background: #F3EFE6; }
+#proposal #write_to_us:hover { background: #F3EFE6; }
+
+                                /*SEARCH*/
+
+#search {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #999999;
+}
+#search p {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#search p+p {
+    display: inline-block;
+    float: right;
+}
+#search input {
+    text-align: left; 
+    height:60px;
+    width:720px;
+    font-size: 18px;
+    border: 1px #999999 solid;
+    text-indent: 40px;
+    color:#999999;
+    background: url(img/skrepka.png)no-repeat;
+    background-position: 2% 50%;
+}
+#search a.button7 {
+    font-weight: lighter;
+    font-size: 18px;
+    color: #e7e7e7;
+    text-decoration: none;
+    padding: 18px 45px 20px 10px;
+    background: #2F3236;
+    margin-left: -4px;
+} 
+
+                                /*TOVARI*/
+
+#tovari {
+    background: red;
+    width: 1000px;
+    height: 860px;
+    margin: 0 auto;
+    margin-top: 40px; 
+}
+#categories {
+    background: green;
+    width: 200px;
+    height: 800px;
+    display: inline-block;
+    
+}
+#opisanie_tovara {
+    background: brown;
+    width: 600px;
+    height: 800px;
+    display: inline-block;
+}
